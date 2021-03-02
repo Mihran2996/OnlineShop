@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/online_shop?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Yerevan
+    username: root
+    password: root
+  activemq:
+    broker-url:
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: javaForTest2018@gmail.com
+    password: forTest2018
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+jwt:
+  secret: Hr5t78%5#F$F*(i9#$3hk99-=-k-l-)kdr5y6y7
+  expiration: 6000000
+  header: Authorization
+
+file:
+  upload:
+    dir: C:\\Users\\MIHRAN\\OnlineShop\\upload
+

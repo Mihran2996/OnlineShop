@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mail Page2</title>
+</head>
+<body  style="color: orange;background-color: black">
+<span>Welcome dear `</span> <span th:text="${user.getName()}"></span><br>
+<h4>You have successfully registered.Please activate your account by clicking on</h4><a th:href="${link}">Activate</a>
+</body>
+</html>
